@@ -1,18 +1,156 @@
-<header>
-  <div class="header-container">
-    <div class="logo">
-      <h1>ООО «ЭРИГЕР»</h1>
-      <p>Профессиональный монтаж остекления и фасадов</p>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ООО «ЭРИГЕР» — Остекление и фасады</title>
+  <meta name="description" content="ООО ЭРИГЕР — профессиональный монтаж остекления и фасадных систем в Москве и МО. Алюминиевые окна, витражи, раздвижные системы. ИНН 9725132160.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="ООО «ЭРИГЕР» — Остекление и фасады">
+  <meta property="og:description" content="Профессиональный монтаж остекления и фасадов. ИНН 9725132160.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://3riger.github.io/eriger-site/">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html" class="logo-link">
+          <img src="images/logo.png" alt="Логотип ЭРИГЕР" class="logo-img" />
+          <div class="logo-text">
+            <h1>ООО «ЭРИГЕР»</h1>
+            <p>Остекление и фасадные работы</p>
+          </div>
+        </a>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon" aria-hidden="true">☰</label>
+
+      <nav class="nav-menu" role="navigation" aria-label="Главное меню">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="uslugi/fasady.html" class="nav-link">Услуги</a>
+        <a href="contacts.html" class="nav-link">Контакты</a>
+      </nav>
     </div>
+  </header>
 
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">☰</label>
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-inner">
+        <h2>Профессиональный монтаж остекления и фасадов</h2>
+        <p>Реализуем проекты любой сложности в Москве и Московской области. Качество, сроки, гарантия.</p>
+        <a href="contacts.html" class="btn btn-primary">Заказать консультацию</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero.jpg" alt="Фасадное остекление" loading="lazy">
+      </div>
+    </section>
 
-    <nav class="nav-menu">
-      <a href="index.html">Главная</a>
-      <a href="uslugi/fasady.html">Услуги</a>
-      <a href="contacts.html">Контакты</a>
-    </nav>
-  </div>
-</header>
+    <!-- About -->
+    <section class="about">
+      <div class="container">
+        <h2>О компании</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p><strong>ООО «ЭРИГЕР»</strong> — специализированная компания, выполняющая полный комплекс работ по остеклению и устройству фасадов. Мы работаем с алюминиевыми системами, витражами, раздвижными конструкциями и парапетами.</p>
+            <ul>
+              <li>Опытные монтажные бригады</li>
+              <li>Сертифицированные материалы</li>
+              <li>Гарантия на работы</li>
+            </ul>
+          </div>
+          <div class="about-credentials">
+            <h3>Реквизиты</h3>
+            <p><strong>ИНН:</strong> 9725132160</p>
+            <p><strong>КПП:</strong> 772501001</p>
+            <p><strong>ОГРН:</strong> 1237746543210</p>
+            <p><strong>Адрес:</strong> г. Москва, Дербеневская набережная, д.1/2, помещ. 9/4</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Services -->
+    <section class="services">
+      <div class="container">
+        <h2>Наши услуги</h2>
+        <div class="grid">
+          <a href="uslugi/fasady.html" class="card">
+            <img src="images/fasad.png" alt="Фасады" loading="lazy">
+            <h3>Фасады</h3>
+          </a>
+          <a href="uslugi/fasadnoe-osteklenie.html" class="card">
+            <img src="images/fasadnoeo-steklenie.png" alt="Фасадное остекление" loading="lazy">
+            <h3>Фасадное остекление</h3>
+          </a>
+          <a href="uslugi/alyuminievye-okna.html" class="card">
+            <img src="images/okna.png" alt="Алюминиевые окна" loading="lazy">
+            <h3>Алюминиевые окна и двери</h3>
+          </a>
+          <a href="uslugi/razdvizhnye-sistemy.html" class="card">
+            <img src="images/razdvizh-sistemy.png" alt="Раздвижные системы" loading="lazy">
+            <h3>Раздвижные системы</h3>
+          </a>
+          <a href="uslugi/parapety.html" class="card">
+            <img src="images/dveri.png" alt="Парапетные крышки" loading="lazy">
+            <h3>Парапетные крышки</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews">
+      <div class="container">
+        <h2>Отзывы клиентов</h2>
+        <div class="review">
+          <blockquote>«Профессиональный подход и отличное качество работ. Спасибо за остекление фасада!»</blockquote>
+          <p class="author">— Андрей П., Москва</p>
+        </div>
+        <div class="review">
+          <blockquote>«Быстро, качественно, эстетично. Раздвижные системы работают отлично!»</blockquote>
+          <p class="author">— Наталья С., Одинцово</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content container">
+      <div class="footer-left">
+        <p><strong>ООО «ЭРИГЕР»</strong></p>
+        <p>ИНН: 9725132160 | КПП: 772501001 | ОГРН: 1237746543210</p>
+      </div>
+      <div class="footer-right">
+        <p>Юридический адрес: г. Москва, Дербеневская набережная, д.1/2, помещ. 9/4</p>
+        <p><a href="mailto:info.eriger@bk.ru">info.eriger@bk.ru</a> | <a href="tel:+79152475848">+7 915 247-58-48</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Добавляет класс scrolled для header при прокрутке
+    (function () {
+      const header = document.querySelector('header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 20) header.classList.add('scrolled'); else header.classList.remove('scrolled');
+      });
+
+      // Подсветка активной ссылки меню
+      const links = document.querySelectorAll('.nav-link');
+      links.forEach(link => {
+        if (link.href === location.href || location.href.includes(link.getAttribute('href'))) {
+          link.classList.add('active');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
