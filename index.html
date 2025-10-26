@@ -5,113 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ООО ЭРИГЕР — Остекление и фасадные работы</title>
   <link rel="stylesheet" href="style.css">
-
-  <style>
-    /* --- Lightbox стили --- */
-    .lightbox {
-      display: none;
-      position: fixed;
-      z-index: 999;
-      padding-top: 60px;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0,0,0,0.8);
-    }
-
-    .lightbox img {
-      margin: auto;
-      display: block;
-      max-width: 90%;
-      max-height: 80%;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(255,255,255,0.2);
-    }
-
-    .lightbox:target {
-      display: block;
-    }
-
-    .close {
-      position: absolute;
-      top: 20px;
-      right: 35px;
-      color: white;
-      font-size: 40px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .close:hover {
-      color: #ccc;
-    }
-  </style>
 </head>
 <body>
   <header>
-    <h1>ООО ЭРИГЕР</h1>
+    <h1>ООО «ЭРИГЕР»</h1>
     <p>Профессиональный монтаж остекления и фасадов</p>
   </header>
 
+  <!-- О компании -->
+  <section class="about">
+    <h2>О компании</h2>
+    <p>
+      <strong>ООО «ЭРИГЕР»</strong> — специализированная компания, выполняющая полный комплекс работ по 
+      остеклению и устройству фасадов зданий. Мы реализуем проекты любой сложности: от частных домов до 
+      крупных коммерческих и административных объектов. Наша команда имеет многолетний опыт в монтаже 
+      алюминиевых окон, витражей, фасадных систем и раздвижных конструкций.
+    </p>
+    <p>
+      Мы гарантируем качество, точность выполнения сроков и применение сертифицированных материалов от 
+      проверенных производителей. Работаем по Москве и Московской области.
+    </p>
+  </section>
+
+  <!-- Услуги -->
   <section class="services">
     <h2>Наши услуги</h2>
     <div class="grid">
-      <a href="#img1" class="card">
+      <a href="uslugi/fasady.html" class="card">
         <img src="images/fasad.png" alt="Фасады">
         <h3>Фасады</h3>
       </a>
-
-      <a href="#img2" class="card">
+      <a href="uslugi/fasadnoe-osteklenie.html" class="card">
         <img src="images/fasadnoeo-steklenie.png" alt="Фасадное остекление">
         <h3>Фасадное остекление</h3>
       </a>
-
-      <a href="#img3" class="card">
+      <a href="uslugi/alyuminievye-okna.html" class="card">
         <img src="images/okna.png" alt="Алюминиевые окна и двери">
         <h3>Алюминиевые окна и двери</h3>
       </a>
-
-      <a href="#img4" class="card">
+      <a href="uslugi/razdvizhnye-sistemy.html" class="card">
         <img src="images/razdvizh-sistemy.png" alt="Раздвижные системы">
         <h3>Раздвижные системы</h3>
       </a>
-
-      <a href="#img5" class="card">
+      <a href="uslugi/parapety.html" class="card">
         <img src="images/dveri.png" alt="Парапетные крышки">
         <h3>Парапетные крышки</h3>
       </a>
     </div>
   </section>
 
-  <!-- Lightbox модальные окна -->
-  <div id="img1" class="lightbox">
-    <a href="#" class="close">&times;</a>
-    <img src="images/fasad.png" alt="Фасады">
-  </div>
-
-  <div id="img2" class="lightbox">
-    <a href="#" class="close">&times;</a>
-    <img src="images/fasadnoeo-steklenie.png" alt="Фасадное остекление">
-  </div>
-
-  <div id="img3" class="lightbox">
-    <a href="#" class="close">&times;</a>
-    <img src="images/okna.png" alt="Алюминиевые окна и двери">
-  </div>
-
-  <div id="img4" class="lightbox">
-    <a href="#" class="close">&times;</a>
-    <img src="images/razdvizh-sistemy.png" alt="Раздвижные системы">
-  </div>
-
-  <div id="img5" class="lightbox">
-    <a href="#" class="close">&times;</a>
-    <img src="images/dveri.png" alt="Парапетные крышки">
-  </div>
-
+  <!-- Отзывы -->
   <section class="reviews">
     <h2>Отзывы клиентов</h2>
     <div class="review">
@@ -124,8 +67,4 @@
     </div>
   </section>
 
-  <footer>
-    <p>Свяжитесь с нами: info.eriger@bk.ru | +7 915 247-58-48</p>
-  </footer>
-</body>
-</html>
+  <!-
