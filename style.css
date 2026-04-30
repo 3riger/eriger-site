@@ -47,4 +47,4 @@ header.scrolled{backdrop-filter: blur(4px);opacity:0.98}
 /* ========== Hero ========== */
 .hero{display:grid;grid-template-columns:1fr 420px;gap:30px;align-items:center;padding:60px 0}
 .hero-inner h2{font-size:2rem;margin:0 0 12px}
-.hero-inner p{margin:0 0
+
